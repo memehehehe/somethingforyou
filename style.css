@@ -1,20 +1,14 @@
-* 
-{  margin:0 auto; padding:0px; text-align:center;
+button{
+    margin-top:10%;
+    margin-left:47%;
 }
-
 .cont_corazon {
   position:relative;
-  margin-top:100px;
+  margin-top:10%;
 }
-
-.cont_corazon > h1 {
-  font-family: 'Roboto';
-font-weight:300;  
+.cont_corazon > h4 {
+text-align: center;
 }
-.cont_corazon > hr {
-  width:300px;  
-}
-
 
 #rect3810,#rect3802,#rect3826,#rect3806,#rect3820,#rect3818,#rect3822,#rect3824  {
 z-index:-5;
@@ -146,9 +140,9 @@ opacity:1;
 }
 
 svg{
-  
+   margin-left:10%;
    position:relative;
-  animation-name:   mov_heart;
+  animation-name: mov_heart;
   animation-duration: 1s;
       animation-iteration-count: infinite;
 -webkit-animation-timing-function: linear; 
@@ -214,4 +208,5 @@ svg{
     transform: translate(0px,10px);
   }
 }
+
 
